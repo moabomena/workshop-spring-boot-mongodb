@@ -10,9 +10,9 @@ public class User implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	public String id;
-	public String name;
-	public String email;
+	private String id;
+	private String name;
+	private String email;
 
 	public User() {
 	}
